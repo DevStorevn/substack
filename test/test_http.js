@@ -1,4 +1,4 @@
-var should = require('chai').should(),
+var should = require('should'),
     expect = require('chai').expect,
     supertest = require('supertest'),
     api = supertest('https://ntt.vbeecore.com');
