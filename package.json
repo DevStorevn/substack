@@ -13,6 +13,6 @@
   },
   "scripts": {
     "start": "index.js",
-    "test": "JUNIT_REPORT_PATH=/report.xml mocha --colors --reporter mocha-jenkins-reporter"
+    "test": "./jenkins-test-results.xml mocha --colors --reporter mocha-jenkins-reporter"
   }
 }
